@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily:{
+           archivo:["'archivo',sans-serif"],
+           inter:["'inter',sans-serif"]
+            },
+            backgroundImage:{
+                cosmos:"url('./cosmos.svg')"
+            },
+            screens:{
+                md:"896px",
+            }
+        }
+    }
+}
+        
+      </script>
+</head>
+<body>
+<nav class="bg-[#F7F7F0] flex items-center justify-between p-4">
+    <div>
+        <img src="./image/bugger.svg">
+    </div>
+    <div>
+        <img src="./image/astroclash logo.svg">
+    </div>
+    <div>
+        <img src="./image/button.svg">
+    </div>
+</nav>
+
+<div class=" flex flex-col bg-[#F7F7F0] md:flex-row  md:mx-auto  ">
+    <div class=" bg-[#F7F7F0] py-8 px-6 ">
+        <h1 class="font-archivo text-[40px] font-bold text-[#22252D]">2,048 legendary minions ready to join the clash.</h1>
+   <h2 class="font-archivo text-[20px] font-bold text-[#7F8596] mt-4">Play-to-Earn NFT Marketplace</h2>
+   <button class="py-4 px-6 bg-[#9F73E6] mt-8 rounded-full font-inter text-[#fff] text-base font-bold cursor-pointer">Explore now</button>
+   </div>
+  <div class="w-full">
+   <img class="w-full" src="./image/run.svg">
+  </div>
+</div>
+
+
+<div class="py-8  flex flex-col gap-11 bg-[#F7F7F0] md:flex-row md:items-center justify-center">
+  
+    <div class="flex gap-5 items-center px-6  ">
+    <div class="bg-[#30B28C] rounded-full w-16 h-16 overflow-hidden">
+        <img src="./image/Character.svg">
+    </div>
+    <div>
+        <h3 class="text-[#7F8596] font-bold text-base font-inter">Total sales</h3>
+        <h4 class="font-bold font-inter text-[40px]">16,789</h4>
+    </div>
+  </div>
+
+  <!-- <div class="h-[1px] w-[100%] md:hidden"><img src="./image/Rectangle 12805.svg"></div>
+  <div class="hidden md:h-[128px] md:w-[2px] "><img src="./image/duzxett.svg"></div> -->
+  
+  <div class="flex gap-5 items-center px-6">
+    <div class="bg-[#9F73E6] rounded-full w-16 h-16 overflow-hidden">
+        <img src="./image/spaceship0.svg">
+    </div>
+    <div>
+        <h3 class="text-[#7F8596] font-bold text-base font-inter">Total volume</h3>
+        <h4 class="font-bold font-inter text-[40px]">300.89</h4>
+    </div>
+  </div>
+  
+  <!-- <div class="h-[1px] w-[100%] md:hidden"><img src="./image/Rectangle 12805.svg"></div> -->
+ 
+  <div class="flex gap-5 items-center px-6">
+    <div class="bg-[#FDC24F] rounded-full w-16 h-16 overflow-hidden">
+        <img src="./image/astronaut_28 1.svg">
+    </div>
+    <div>
+        <h3 class="text-[#7F8596] font-bold text-base font-inter">Character sold</h3>
+        <h4 class="font-bold font-inter text-[40px]">8,321</h4>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="flex flex-col md:flex-row md:items-center justify-center">
+    <div class="flex px-8 py-10">
+      <ul class="flex gap-8 justify-center md:gap-16 " >
+        <li class="flex gap-3 items-center "><img src="./image/robot.svg"><h1 class="font-semibold text-sm font-inter">Characters</h1></li>
+        <li class="flex gap-3 items-center "><img src="./image/planet.svg"><h1 class="font-semibold text-sm font-inter">Planets</h1></li>
+        <li class="hidden md:flex md:gap-3 md:items-center"><img src="./image/gun.svg"><h1 class="font-semibold text-sm font-inter">Items</h1></li>
+        <li class="hidden md:flex md:gap-3 md:items-center"><img src="./image/bundles.svg"><h1 class="font-semibold text-sm font-inter">Bundles</h1></li>
+      
+      </ul>
+
+    </div>
+    <div class="py-8 px-6 flex items-center justify-center gap-3">
+      <button class="flex p-3  gap-2 bg-[#E7E7E199] bg-opacity-0.6 pr-[235px] md:pr-[180px] rounded-xl cursor-pointer">
+        <i class="fa-solid fa-magnifying-glass text-[#494E5B]" ></i>
+        <h1 class="text-[#494E5B] font-semibold text-sm font-inter">Search</h1>
+      </button>
+      <button class=" hidden pointer w-12 h-12 md:flex cursor-pointer"><img src="./image/Frame 2013.svg"></button>
+    </div>
+</div>
+
+
+<div class="px-6 py-8 flex flex-col gap-8 items-center justify-center  md:grid md:grid-cols-3  md:gap-x-4 md:mx-auto lg:mx-auto">
+<!-- 1 -->
+ <div class="flex flex-col gap-5 md:w-[288px]">
+    <div class="bg-[#D1E2DB] rounded-2xl md:w-[288px] md:h-[288px] ">
+        <img src="./image/variation2 1.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+<!-- 2 -->
+ <div class="flex flex-col gap-5 md:w-[288px]">
+    <div class="bg-[#E4E3E6] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/06.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+<!-- 3 -->
+ <div class="flex flex-col gap-5 md:w-[288px]">
+    <div class="bg-[#E5DCF3] rounded-2xl md:w-[288px] md:h-[288px]">
+       <a href="./lumbur.html"><img src="./image/Lumburr variation.svg "></a> 
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+<!-- 4 -->
+ <div class="flex flex-col  gap-5 md:w-[288px]">
+    <div class="bg-[#F0E5D9] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/08.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+<!-- 5 -->
+ <div class="flex flex-col gap-5 md:w-[288px]">
+    <div class="bg-[#C6DEDF] rounded-2xl md:w-[288px] md:h-[288px] ">
+        <img src="./image/variation4 1.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+
+
+<!-- 6 -->
+
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E1E2E2] rounded-2xl  md:w-[288px] md:h-[288px]">
+        <img src="./image/sadAstronaut.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#030304] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 7 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#FDE0F0] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/yellowlumbur.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 8 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E4E3E6] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/astronaut6.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 9 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#F0E5D9] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/orangelumbur.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 10 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E4E3E6] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/astronautmishar.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 11 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E1E0E4] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/sadaglumbur.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 12 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E1E2E2] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/07.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 13 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#D1E2DB] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/variation4 1.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 14 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E1E2E2] rounded-2xl md:w-[288px] md:h-[288px]">
+        <img src="./image/06.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+ <!-- 15 -->
+ <div class="hidden md:flex md:flex-col md:gap-5 md:w-[288px]">
+    <div class="bg-[#E4D8DE] rounded-2xl md:w-[288px] md:h-[288px] ">
+        <img src="./image/pinklumbur.svg">
+    </div>
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[3px] px-[6px] text-[#22252D] text-xs font-semibold font-inter bg-[#30B28C40] bg-opacity-25 rounded-md">#07892</div>
+            <h1 class="font-inter font-bold text-base">Lumburr</h1>
+        </div>
+        <div class="flex flex-col gap-1 ">
+            <div class="py-[2px] px-[8px] text-[#30B28C] text-am font-semibold font-inter border-2 border-[#30B28C40] border-opacity-25 rounded-lg">0.08 ETH</div>
+            <h1 class="font-inter font-semibold text-xs text-center">$ 221.38</h1>
+        </div>
+    </div>
+ </div>
+
+
+
+</div>
+<div class="flex items-center justify-center">
+     <div class="flex items-center justify-center  rounded-xl border-[#7F85964D] border-opacity-30 border-2 gap-2 w-[175px] h-[56px]">
+    
+   <img src="./image/load spinner.svg">
+   <h1 class="font-bold text-base font-inter">Load more</h1>
+ </div>
+</div>
+
+
+<div class="py-8 px-4">
+    <div class="flex flex-col items-center  rounded-xl px-5 overflow-hidden relative bg-[url('./image/cosmos.svg')] md:bg-cover md:bg-center h-[600px] py-8 text-center ">
+    <h1 class="font-bold relative font-archivo text-5xl text-[#fff]">Join our community</h1>
+    <p class="text-md font-medium mt-2 text-[#fff] font-inter">Iste animi consectetur dicta dolorem</p>
+    <div class="flex gap-5 mt-[42px]">
+      <div class="w-10 h-10 bg-[white] rounded-full flex items-center justify-center">
+       <img src="./image/discord.svg">
+      </div>
+      <div class="w-10 h-10 bg-[white] rounded-full flex items-center justify-center">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="w-10 h-10 bg-[white] rounded-full flex items-center justify-center">
+        <img src="./image/ig.svg">
+      </div>
+      <div class="w-10 h-10 bg-[white] rounded-full flex items-center justify-center">
+        <img src="./image/telegram.svg">
+      </div>
+      <div class="w-10 h-10 bg-[white] rounded-full flex items-center justify-center">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+    </div>
+    </div>
+</div>
+    
+
+<div class="px-4 flex justify-between py-8">
+    <div>
+        <ul class="flex flex-col gap-4 text-[#7F8596] font-inter text-sm font-semibold md:flex-row md:gap-10">
+            <li><a href="#">Game play</a></li>
+            <li><a href="./cosmos.html">Roadmap</a></li>
+            <li><a href="#">Feature & benefits</a></li>
+            <li><a href="#">Marketplace</a></li>
+        </ul>
+    </div>
+    <div>
+        <button class="border-2 border-[#7F85964D] border-opacity-30 rounded-lg py-2 px-4 font-bold text-sm text-[#22252D] cursor-pointer">Play now</button>
+    </div>
+  
+</div>
+ <div class="w-[100%] px-4">
+    <img src="./image/Frame 1627.svg" class="md:hidden">
+    <img src="./image/xett.svg" class="hidden md:block md:w-full">
+</div>
+<footer class="text-[#7F8596] flex justify-between items-center px-4 font-bold text-xs font-inter py-4" >
+    <div>
+        <h1>© 2022 UI8</h1>
+    </div>
+    <div class="flex gap-4 ">
+        <h1>Privacy policy</h1>
+        <h2>Terms of services</h2>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
